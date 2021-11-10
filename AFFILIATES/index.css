@@ -1,0 +1,641 @@
+/* body{
+    font-family: "Rubik","Helvetica Neue",sans-serif;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ .sheet{
+   padding-top:10px;
+ }
+  .logo img{
+   padding-bottom:14px;
+  }
+ .dot{
+     font-weight: bold;
+     font-size: 25px;
+     /* padding-top: 40px; */
+     padding-left: 10px;
+ }
+ .space {
+   padding: 2em 0;
+ }
+ 
+ .navbar .navbar-collapse .nav-item .nav-link{
+    color:black;
+    font-weight: bold;
+    padding-left:25px;
+    /* float:left; */
+ }
+ .container .navbar .navbar-collapse .nav-item .down{
+    color:white;
+    background-color:#6FD350;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+    font-weight: bold;
+    margin-left:25px;
+    font-size:12px;
+    margin-top: 7px;
+    padding: 5px 12px;
+
+    /* float:left; */
+ }
+  .banner {
+    background-image:url("./IMAGES/head.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  min-height: 650px;
+  padding: 9rem 0;
+  }
+ .showcase {
+ 
+  /* position: absolute;
+ 
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;}  */
+  background: #fff;
+    width: 700px;
+    /* padding: 3rem; */
+    max-width: 90%;
+    margin: 0 auto;
+    /* text-align: center; */
+ }
+ .showcase .wrap{
+    /* margin-top:200px; */
+      background-color: #fff;
+      /* max-width: 900px; */
+      text-align: center;
+      /* height:330px; */
+      padding: 40px 50px;
+      /* padding:0px; */
+      font-weight: 800;
+      font-family: "Rubik","Helvetica Neue",sans-serif;
+      font-size:40px;
+      padding-bottom: 40px;
+      
+  }
+  .boot{
+    font-weight:bold;
+  }
+  .showcase .wrap h2{
+    /* font-size: 23px; */
+    font-weight: 600px;
+    font-family: "Rubik","Helvetica Neue",sans-serif;
+
+  }
+ .showcase .wrap a{
+      background: #fff100;
+      border: 0;
+      color: #333;
+      border-radius: 3px;
+      font-weight: bold;
+      padding: 15px 36px;
+      box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+      text-transform: uppercase;
+      font-size: 14px;
+      /* font-family: Rubik, sans-serif; */
+      letter-spacing: 1px;
+  }
+
+ 
+ 
+  .lead{
+    /* font-size: 60px;
+    font-weight: 600px; */
+    color: #888;
+    line-height: 1.6;
+    /* padding:20px 30px; */
+    padding: 15px 12px;
+    /* background-color: black; */
+  }
+  
+ 
+  .btn{
+      background-color: yellow;
+      color:black;
+  }
+
+.engage .feaured{
+   
+   /* font-size:bold; */
+    font-weight: bold; 
+ 
+   text-transform: uppercase;
+    letter-spacing: 1px; 
+    position:relative;
+  
+ }
+  /* .feaured ::after{
+    
+      position: absolute;
+      content: '';
+      right: 0;
+      bottom: 7px;
+      width: calc(100% - 89px);
+      height: 1px;
+      background: #827e7e;
+   
+    } */
+ 
+ .gut{
+   width:1000px;
+   height:350px;
+   padding-left:100px;
+   padding-right:100px;
+
+ }
+ .text{
+  height:350px;
+  /* width:500px; */
+ }
+ /* .engage {
+  /* padding: 10px 0; */
+  /* padding-top:60px;
+} */ 
+ .section .card  {
+   max-width: 540px;
+   border: 1px solid #f6f6f6;
+  
+
+ }
+ 
+ .section .card1 .bg{
+  background-position: 38% 53%;
+  background-size: cover;
+  height: 100%;
+  width: 240px;
+ }
+ .title{
+   font-weight: bold;
+ }
+ .fcontainer{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.fitem{
+  /* margin-top:10px; */
+  display: flex;
+    align-items: center;
+    line-height: 14.5px;
+}
+.item1 img{
+  width:39px;
+  border-radius:100%;
+  /* margin-top: 13px; */
+}
+/* .item2{
+  margin-top: 15px;
+} */
+.sal{
+  font-size: 14px;
+}
+.jan{
+  display:block;
+  padding-left: 41px;
+  margin-top: -26px;
+  font-size: 14px;
+  color: #666;
+}
+.icon{
+  border: 1px solid #d0d0d0;
+  border-radius: 50%;
+  padding: 0px 6px;
+  line-height: 30px;
+}
+
+.lap{
+  display:block;
+  color: rgba(0,0,0,.44);
+  font-size: 13px;
+}
+ .change{
+  color:#666;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+ .para{
+  padding-top: 23px;
+ }
+ 
+
+ .news{
+  border:1px solid #f6f6f6;
+
+
+}
+.lorem{
+  text-align: center;
+  line-height: 1.5;
+  color:#999;
+    font-size: 15px;
+}
+.free{
+  margin-top: 37px;
+  text-align: center;
+  font-size:16px;
+  /* letter-spacing: 1px; */
+  font-weight: bold;
+  /* font-family: "Rubik","Helvetica Neue",sans-serif; */
+
+
+
+}
+.free span{
+  position: relative;
+}
+.free span::after
+{
+  position: absolute;
+  content: '';
+  top: 11px;
+  width: 82px;
+  height: 2px;
+  margin-left: 15px;
+  background: #827e7e;
+}
+.free span::before {
+  position: absolute;
+  content: '';
+  top: 11px;
+ 
+  width: 82px;
+   margin-left: -91px;
+  height: 2px;
+  background: #827e7e;
+}
+
+input[type=text]{
+  padding: 8px 10px;
+  width:300px;
+    margin-left: 20px;
+}
+.button{
+  background-color: #675bff;
+	font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  width:300px;
+  padding: 8px 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color:white;
+  border:none;
+  display: block;
+}
+.use{
+  padding-top:32px;
+  text-align: center;
+  font-size:16px;
+  font-weight:bold;
+
+}
+.use span{
+  position:relative;
+}
+.use span::after{
+  position:absolute;
+  content:'';
+  top:11px;
+  margin-left: 15px;
+  width: 82px;
+  height: 2px;
+  background: #827e7e;
+}
+.use span::before{
+  position:absolute;
+  content:'';
+  top:11px;
+  width: 82px;
+   margin-left: -91px;
+  height: 2px;
+  background: #827e7e;
+}
+ .list{
+   margin-top:30px;
+  /* border:1px solid #f5f5f5; */
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 14%);
+  padding-bottom: 27px;
+
+ }
+ .list ul{
+   list-style: none;
+ }
+ .list ul li{
+   margin-top:10px;
+   margin-left:30px;
+   padding-top:16px;
+   /* color:#999; */
+ }
+ .list ul li a{
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 10px;
+    padding-top: 10px;
+    color:#999;
+}
+.red{
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 14%);
+  margin-top:30px;
+  padding-bottom: 27px;
+}
+ .recomen{
+   text-align:center;
+   padding-top:32px;
+ }
+.recomen span{
+  position:relative;
+}
+.recomen span ::after{
+  position:absolute;
+  content:'';
+  top:13px;
+  margin-left: 15px;
+  width: 40px;
+  height: 2px;
+  background: #827e7e;
+}
+.recomen span ::before{
+  position:absolute;
+  content:'';
+  top:13px;
+  margin-left: -55px;
+  width: 40px;
+  height: 2px;
+  background: #827e7e;
+}
+ .center{
+   display:block;
+   margin-left: auto;
+    margin-right: auto;
+ }
+
+ /* parent ko relative or child ko absoute dete hain th */
+ /* after is liye k border-line banani hai */
+ /* content: ''; yeh property zaroori hai after before me dene k liye wrna after before show nhi hotaa  */
+ /* left pe lejana nhi tha tw is liye hata diayaa top b isi liye wrna bottom 0 kr k top se bhi khel sktay hain 
+ or right se 0 krdiya ta k right ki trf chala jaye */
+ /* or calc width 100% men se is liye minus kri hai ta k responsive tk sahe jaye agr 100% dunga tw responsive tk sahe nhi jayge 
+ kr k dekhata hun */
+ .story .stories {
+   font-size: 14px;
+   position: relative; 
+   font-weight:bold;
+ }
+ .story .stories::after {
+   position: absolute;
+   content: '';
+   right: 0;
+   bottom: 7px;
+   width: calc(100% - 89px);
+   height: 1px;
+   background: #f6f6f6;
+
+ }
+ .produce{
+   margin-top:10px;
+ }
+ .code{
+  font-weight:bold;
+  font-size:20px;
+  /* letter-spacing:1px; */
+ }
+ .book .sam{
+  color: #666;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 6px;
+
+ }
+ .page{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #666;
+  /* position:relative; */
+ }
+ /* .page::after{
+   position: absolute;
+   content: '';
+   right:0;
+   width: calc(100% - 89px);
+   height: 1px;
+
+ } */
+ .beforefooter{
+   margin-top:30px;
+  background-color:#fff100;
+  padding: 50px 0;
+  color:#000;
+ }
+a.btn{
+  font-size:16px;
+  color:#fff;
+  font-weight:bold;
+}
+.connect{
+  margin-left:16px;
+}
+.fas i{
+  width:41px;
+}
+.resource{
+  background-color: #171e27;
+  padding-top:3rem;
+  padding-bottom:5rem;
+  color:#999;
+
+}
+.down{
+  color:#fff;
+  font-size:18px;
+  letter-spacing: 1px;
+  margin-bottom:10px;
+}
+.footer-widget ul{
+  list-style:none;
+}
+.footer-widget ul li {
+  margin:12px 0;
+}
+.text-widget a{
+border-bottom:1px dashed;
+color:inherit;
+}
+.text-widget a:hover{
+  color:#eee;
+}
+.pull-left{
+  float:left;
+}
+.copyright a{
+  color:#eee;
+}
+.copyright a:hover{
+  color:#eee;
+}
+.elegant{
+  display: block;
+  margin-right: auto;
+    margin-left: auto;
+ 
+    width: 50%;
+    min-width: 80%;
+
+    padding: 120px 0;
+}
+  @media (max-width: 582px) {
+ .showcase .wrap {
+   padding: 25px 10px;
+   }
+   .wrap h1{
+     font-size: 22px;
+   }
+  .showcase .wrap .lead{
+     font-size: 18px;
+   }
+} 
+
+
+/* for some small desktop  */
+
+/* 1199 se 992 tk hoti hai  */
+
+@media (max-width:1199px) {
+  .section  .card1 .bg {
+    width: 206px;
+
+  }
+}
+
+/* 991 se 768 tk hoti hai  */
+
+ /* for tablet  */
+@media (max-width:991px) {
+  .section .card1 .bg{
+    width: 100%;
+    height: 150px;
+  }
+}
+
+/* for tablet landscape */
+/* 767 se 576 tk hoti hai  */
+
+/* @media (max-width:767px) {
+
+} */
+
+
+/* for mobile landscape */
+/* 575 se 461 tk hoti hai  */
+
+/* @media (max-width:576px) {
+
+} */
+
+/* for standard mobile screen */
+/* 460 se 361 tk hoti hai  */
+
+/* @media (max-width:4606px) {
+
+} */
+
+
+/* for  mobilesmall screen */
+/* 360 se 320 ya 280 tk hoti hai  */
+
+/* @media (max-width:360px) {
+
+} */
+
+
+
+/* or han double media query use nhi krtay hain  */
+
+
+    @media screen and (max-width: 320px) {
+      /* .showcase{
+        width: 269px;
+        margin-left: 13px;
+    } */
+    .wrap h1{
+      font-size: 17px;
+    }
+    .showcase .wrap .lead{
+      font-size: 17px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    /* .showcase{
+      width: 277px;
+      margin-left: 6px;
+  } */
+  .wrap h1{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* .showcase{
+    width: 274px;
+    margin-left: 8px;
+} */
+.wrap h1{
+  font-size: 18px;
+}
+.showcase .wrap .lead{
+  font-size: 16px;
+}
+}
+@media screen and (max-width: 768px) {
+  .resource{
+    text-align: center;
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .final{
+    font-size: 19px;
+  }
+  .connect{
+    font-size: 19px;
+    padding-top: 10px;
+  }
+
+}
+@media screen and (max-width: 375px) {
+  .final{
+    font-size: 19px;
+  }
+  .connect{
+    font-size: 19px;
+    padding-top: 10px;
+  }
+
+}
+@media screen and (max-width: 425px) {
+  .final{
+    font-size: 19px;
+  }
+  .connect{
+    font-size: 19px;
+    padding-top: 10px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  
+  .connect{
+    padding-top: 10px;
+  }
+
+}
